@@ -11,7 +11,8 @@
 
 Язык: JavaScript
 
-- React 
+- React
+- Styled Components
 
 ## Инструкция по запуску проекта
 
