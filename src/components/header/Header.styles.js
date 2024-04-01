@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 import { Button } from '../../App.styles'
 
-export const Header = styled.header``
+export const Header = styled.header`
+`
 
 export const HeaderTop = styled.div`
   display: flex;

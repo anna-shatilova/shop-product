@@ -67,7 +67,7 @@ export const Container = styled.div`
   max-width: 1600px;
   margin: 0 auto;
   background-color: #ffffff;
-  padding: 16px 24px 48px 24px;
+  padding: 16px 24px 48px 0px;
 `
 
 export const Button = styled.button`
