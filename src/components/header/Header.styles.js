@@ -2,11 +2,13 @@ import styled from 'styled-components'
 import { Button } from '../../App.styles'
 
 export const Header = styled.header`
+  width: 100%;
 `
 
 export const HeaderTop = styled.div`
   display: flex;
   gap: 24px;
+  justify-content: space-between;
   margin-bottom: 16px;
 `
 
@@ -150,7 +152,7 @@ export const UserOptionsSvg = styled.svg`
 `
 
 export const HeaderLineSvg = styled.svg`
-  width: 1600px;
+  width: 100%;
   height: 0px;
   border: 1px solid #e2e4f0;
 `
@@ -162,8 +164,7 @@ export const HeaderNav = styled.nav`
   justify-content: space-between;
 `
 
-export const NavMenu = styled.div`
-`
+export const NavMenu = styled.div``
 
 export const MenuList = styled.ul`
   display: flex;

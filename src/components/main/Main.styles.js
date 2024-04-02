@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
-export const Main = styled.main``
+export const Main = styled.main`
+  max-width: 1600px;
+  margin: 0 auto;
+`
 
 export const UnderHeaderNav = styled.div`
   margin-top: 32px;
@@ -167,6 +170,7 @@ export const ElContent = styled.p`
   font-weight: 700;
   margin-bottom: 4px;
 `
+
 export const ElName = styled.p`
   font-size: 12px;
   font-weight: 400;

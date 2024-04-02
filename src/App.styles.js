@@ -26,7 +26,6 @@ export const GlobalStyles = createGlobalStyle`
 
 a,
 a:visited {
-  font-family: 'Gotham';
   text-decoration: none;
   cursor: pointer;
 }
@@ -35,7 +34,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Gotham';
+  font-family: 'Gotham', sans-serif;
   color: #000000;
 }
 
@@ -63,9 +62,6 @@ export const Wrapper = styled.div`
 `
 
 export const Container = styled.div`
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
   background-color: #ffffff;
   padding: 16px 24px 48px 0px;
 `
